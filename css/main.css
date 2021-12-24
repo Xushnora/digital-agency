@@ -32,6 +32,7 @@ body{
     font-size: 10px;
     line-height: 15px;
     color: #1A1A1A;
+    margin-right: 40px;
 }
 
 .located::before{
@@ -39,7 +40,7 @@ body{
     display: inline-block;
     width: 15px;
     height: 15px;
-    background-image: url('../images/located.svg');
+    background-image: url('../images/pin1.svg');
     background-repeat: no-repeat;
     background-position: cover;
 }
@@ -48,6 +49,7 @@ body{
     font-size: 10px;
     line-height: 15px;
     color: #1A1A1A;
+    margin-right: 40px;
 }
 
 .call::before{
@@ -58,10 +60,6 @@ body{
     background-image: url('../images/phone-call.svg');
     background-repeat: no-repeat;
     background-position: cover;
-}
-
-.call{
-    margin-right: 40px;
 }
 
 .header-hight{
