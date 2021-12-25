@@ -28,6 +28,13 @@ body{
     text-decoration: none;
 }
 
+#hero{
+    background-image: url('../images/Vector2.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 106px;
+}
+
 .located{
     font-size: 10px;
     line-height: 15px;
@@ -69,7 +76,7 @@ body{
 
 .background{
     background-color: #E47500;
-    padding: 30px 63px;
+    padding: 14px 63px;
     margin-bottom: 102px;
 }
 
@@ -261,5 +268,113 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 }
 
+#inductry-section{
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+    padding-top: 69px;
+}
+
+.industry-title{
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.industry-text{
+    margin-bottom: 55px;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+    width: 545px;
+    height: 67px;
+}
+
+.industry-img{
+   
+
+}
+
+.img-back{
+    display: inline-block;
+    margin-left: 24px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 13px 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: -1px 2px 46px 11px rgba(139, 139, 139, 0.14);
+  
+}
+
+.lorem-in{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 95%;
+    height: 100%;
+    background-color: #fff;
+    padding-top: 35px;
+    padding-right: 39px;
+    padding-left: 35px;
+    padding-bottom: 39px;
+    box-shadow: -1px 2px 46px 11px rgba(139, 139, 139, 0.14);
+}
+
+.lorem-btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #dc0000;
+    border: 2px solid transparent;
+    background: rgba(220, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-left: 14px;
+    padding-bottom: 6px;
+    margin-bottom: 19px;
+}
+
+.lorem-item:nth-child(2) .lorem-btn{
+    color: #b000dc;
+    background: rgba(176, 0, 220, 0.11);
+}
+
+.lorem-item:nth-child(3) .lorem-btn{
+    color: #0058dc;
+    background: rgba(0, 88, 220, 0.09);
+}
+
+.lorem-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187.5%;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.lorem-text{
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #525252;
+    margin-bottom: 25px;
+}
+
+.lorem-link{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #DC7000;
+    display: flex;
+    align-items: center;
+    justify-content: end;   
+}
+
+.lorem-in-img{
+    margin-left: 12px;
+}
